@@ -1,0 +1,36 @@
+<div class="card">
+    <div class="card-header">
+        <h3>{{blog.title}}</h3>
+        <h5>User: {{blog.user.username}}</h5>
+    </div>
+    <div class="card-body">
+        <p>{{blog.body}}</p>
+        <span>{{format_date blog.date_created}}</span>
+    </div>
+</div>
+
+{{#each comments as |comment|}}
+<div class="card">
+    <div class="card-body">
+        <p>{{comment.body}}</p>
+        <span>Posted on: {{format_date comment.date_created}}</span>
+        <span>User: {{user.username}}</span>
+    </div>
+</div>
+{{/each}}
+
+{{#if logged_in}}
+<form class="create-comment">
+    <div class="card">
+        <div class="card-header">
+            <h4>Comment:</h4>
+        </div>
+        <div class="card-body">
+            <textarea placeholder="Comment here..." id="body" cols="30" rows="10"></textarea>
+            <button id="create-comment" type="submit" data-blog={{blog_id}} data-user={{user_id}}>Comment</button>
+        </div>
+    </div>
+</form>
+
+<script src="/js/createComment.js"></script>
+{{/if}}
