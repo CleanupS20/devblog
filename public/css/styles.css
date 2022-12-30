@@ -1,5 +1,5 @@
 :root {
-    --primary-color: blue;
+    --primary-color: rgb(77, 72, 179);;
     --bg-color: #efefef;
 }
 
@@ -53,7 +53,7 @@ header nav .link-item {
 }
 
 header nav .link-item:hover {
-    color: red;
+    color: rgb(77, 72, 179);;
 }
 
 /* creates space between nav bar */
@@ -157,11 +157,11 @@ main {
 }
 
 .dashboard-card a:hover {
-    color: red;
+    color: rgb(77, 72, 179);
 }
 
 .new-post {
-    background-color: rgb(248, 33, 33);
+    background-color: rgb(77, 72, 179);
     padding: 7px;
     border: 2px black solid;
     border-radius: 10px;
