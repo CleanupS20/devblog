@@ -19,7 +19,9 @@
  
 ## Visuals
 
-![Screenshots]
+![Dashboard Screenshot](https://github.com/CleanupS20/devblog/blob/main/assets/Dashboard%20screenshot.png)
+![Home Screenshot](https://github.com/CleanupS20/devblog/blob/main/assets/Home%20screenshot.png)
+![Login Screenshot](https://github.com/CleanupS20/devblog/blob/main/assets/Login%20screenshot.png)
 
 ## Site
 
