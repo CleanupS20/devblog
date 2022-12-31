@@ -21,6 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: rgb(77, 72, 179);
 }
 
 /* Header CSS Rules */
@@ -83,7 +84,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(77, 72, 179);
     border-bottom: 1px grey solid;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
