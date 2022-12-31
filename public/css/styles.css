@@ -21,29 +21,21 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* border: 1px black solid; */
 }
 
 /* Header CSS Rules */
 header h1 {
     text-shadow: 0px 1px 3px grey;
     margin-left: 100px;
-    /* transition: all, 0.5s; */
 }
 
 header h1 span {
     font-size: 25px;
 }
 
-/* header h1:hover {
-    letter-spacing: 3px;
-} */
-
 header nav {
-    /* border: 1px black solid; */
     padding: 10px;
     margin-right: 100px;
-    /* margin-left: 500px; */
 }
 
 header nav .link-item {
@@ -71,7 +63,6 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    /* border: 1px black solid; */
 }
 
 /* Card CSS Rules */
@@ -80,11 +71,7 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    /* justify-content: center;
-    align-items: center; */
-    /* border: 1px grey solid; */
     border-radius: 10px;
-    /* padding: 10px; */
     margin: 15px;
     width: 700px;
     box-shadow: 0px 0px 10px grey;
@@ -102,7 +89,6 @@ main {
     border-top-right-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    /* margin: 0; */
 }
 
 .card-header a {
@@ -148,7 +134,7 @@ main {
     color: black;
     text-decoration: none;
     margin-top: 15px;
-    width: 100%;
+    width: 700px;
 }
 
 .dashboard-card a {
